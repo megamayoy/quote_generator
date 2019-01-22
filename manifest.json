@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+    
+      "icons": { "16": "iconrequesta-quote.png",
+           "48": "requestaquote.png",
+          "128": "requestaquote.png" },
+    
+  "name": "quote generator",
+  "description": "This extension generates quotes and let users search for the owner of it",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "iconrequesta-quote.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "bookmarks",
+      "tabs"
+   ]
+}
